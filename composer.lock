@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "696043e04605e2752e47b8e6f8f98da1",
@@ -845,19 +845,22 @@
         },
         {
             "name": "zoujingli/wechat-php-sdk",
-            "version": "v1.3.14",
+            "version": "v1.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zoujingli/wechat-php-sdk.git",
-                "reference": "4e8563507213f030cb6612fafceb96380ce7cfb7"
+                "reference": "d37d0c1919ede2ee54e65100ac3792e947b1e0ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zoujingli/wechat-php-sdk/zipball/4e8563507213f030cb6612fafceb96380ce7cfb7",
-                "reference": "4e8563507213f030cb6612fafceb96380ce7cfb7",
+                "url": "https://api.github.com/repos/zoujingli/wechat-php-sdk/zipball/d37d0c1919ede2ee54e65100ac3792e947b1e0ef",
+                "reference": "d37d0c1919ede2ee54e65100ac3792e947b1e0ef",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
                 "php": ">=5.3.3"
             },
             "type": "project",
@@ -875,7 +878,7 @@
             "keywords": [
                 "wechat-php-sdk"
             ],
-            "time": "2018-02-05T02:44:49+00:00"
+            "time": "2019-10-10T09:42:15+00:00"
         }
     ],
     "packages-dev": [],
